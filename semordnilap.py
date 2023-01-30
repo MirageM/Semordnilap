@@ -1,4 +1,7 @@
 #Semordnilap
+#O(n * m) time | O(n * m) space
+#where n is the number of words | where m is the length of the longest word
+
 def semordnilap(words):
     wordsSet = set(words)
     semordnilapPairs = []
